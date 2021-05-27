@@ -1,4 +1,4 @@
-# Practice Promises
+# Asynchronous Programming in JS using Promises
 A Promise is a mechanism frequently used in JavaScript to handle asynchronous processes; that is, promises are how we reason about the business of waiting.
 
 Actually promises are simple state machines with three possible states:
@@ -32,7 +32,7 @@ Use the [Promise constructor](https://developer.mozilla.org/en-US/docs/Web/JavaS
 
 
 # Part B
-This part of exercise focus on consuming promises with .then and .catch methods and async/await. These methods are very important, not only in consuming but for transforming and combining promises.
+This part of exercise focus on consuming promises with `.then` and `.catch` methods and `async`/`await`. These methods are very important, not only in consuming but for transforming and combining promises.
 
 ## Exercise 1
 Try to log the return value of a promise into console without using then/catch or async/await. 
@@ -42,4 +42,13 @@ Try to log the return value of a promise into console without using then/catch o
 ## Exercise 2
 
 1. Please log the return value of an example promise which resolved/rejected after 3s delay into console.
-2. Rpeate the part 1 of this exercise, but this time use async and await.
+2. Rpeate the part 1 of this exercise, but this time use `async` and `await`.
+
+
+# Part C
+In this part of exercise we want to focus on promise chaining. Actually, whenever we have a sequence of asynchronous tasks that needs to be performed one after another, we can using promise chaining.
+
+## Exercise 1
+Please define 3 promises with names `promise_1`, `promise_2`, `promise_3`
+    1. Each of these promises should resolve a numeric value after same amount of waiting time (e.g promise_1 resolve 1 after 1second)
+    2. Please chain these promises into each other in a way that the one with bigger waiting time resolved first and the one with lowest waiting time resolve last.
