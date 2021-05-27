@@ -50,5 +50,5 @@ In this part of exercise we want to focus on [Promise chaining](https://develope
 
 ## Exercise 1
 Please define 3 promises with names `promise_1`, `promise_2`, `promise_3`
-    1. Each of these promises should resolve a numeric value after same amount of waiting time (e.g promise_1 resolve 1 after 1second)
-    2. Please chain these promises into each other in a way that the one with bigger waiting time resolved first and the one with lowest waiting time resolve last.
+1. Each of these promises should resolve a numeric value after same amount of waiting time (e.g promise_1 should resolve value '1' after 1 second)
+2. Please chain these promises into each other in a way that the one with bigger waiting time resolved first and the one with lowest waiting time resolve last.
