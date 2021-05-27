@@ -14,9 +14,9 @@ In this part of exercise we need to make a promise and not interested on consumi
 
 ## Exercise 1
 
--A Use [Promise.resolve(value)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve) and resolve the value 'Resolve value'. 
+1. Use [Promise.resolve(value)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve) and resolve the value 'Resolve value'. 
 
--B Use [Promise.reject(error)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject) and reject the value /'Reject value/'.
+2. Use [Promise.reject(error)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject) and reject the value /'Reject value/'.
 
 
 ## Exercise 3
