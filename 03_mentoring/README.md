@@ -30,6 +30,10 @@ Use the [Promise constructor](https://developer.mozilla.org/en-US/docs/Web/JavaS
 2. Reject the value 'Error' if variable cond is falsy
 3. Repeat part 1 and 2 of this exercise with a 3s delay before resolve or reject. (If you want to simulate the waiting time, a common approach is using setTimeout() method.)
 
-## Exercise 4
 
-This is a common use of the Promise constructor. If you want to simulate waiting for a value, a common technique is to create a function like the following.  It simply accepts a value, and a delayInMs, then returns a promise that will resolve with that value after that delay.
+# Part B
+This part of exercise focus on consuming promises with .then and .catch methods. These methods are very important, not only in consuming but for transforming and combining promises.
+
+## Exercise 1
+
+Please log the return value of an example promise which resolved/rejected after 3s delay into console.
