@@ -10,23 +10,25 @@ Actually promises are simple state machines with three possible states:
 Resolved and rejected are ***final*** states, which means that once a promise gets to one of these states, it absolutely cannot go to any other state. Pending can go either way.  
 A promise that is either resolved or rejected may also have a ***payload***, a value that it carries.  It's a little like an array that can only contain one value.  It's that the value be `undefined`, but that's still a value.
 
+# Part A
 In this part of exercise we need to make a promise and not interested on consuming the return value.
 
 ## Exercise 1
 
 1. Use [Promise.resolve(value)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve) and resolve the value 'Resolve value'. 
 
-2. Use [Promise.reject(error)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject) and reject the value /'Reject value/'.
+2. Use [Promise.reject(error)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject) and reject the value 'Reject value'.
 
 
-## Exercise 3
+## Exercise 2
 
-You have the outline of a function `makePromiseWithConstructor(itShouldResolve)`
+Create a function `constructorPromise` and return a promise out of it.
 
-Use the [Promise constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) to create a promise that will:
+Use the [Promise constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) to create a promise that:
 
-* resolve if itShouldResolve is truthy
-* reject if itShouldResolve is falsy
+1. Resolve the value 'Success' if variable cond is truthy
+2. Reject the value 'Error' if variable cond is falsy
+3. Repeat part 1 and 2 of this exercise with a 3s delay before resolve or reject. (If you want to simulate the waiting time, a common approach is using setTimeout() method.)
 
 ## Exercise 4
 
