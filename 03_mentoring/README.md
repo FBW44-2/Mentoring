@@ -46,7 +46,7 @@ Try to log the return value of a promise into console without using then/catch o
 
 
 # Part C
-In this part of exercise we want to focus on promise chaining. Actually, whenever we have a sequence of asynchronous tasks that needs to be performed one after another, we can using promise chaining.
+In this part of exercise we want to focus on [Promise chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining). Actually, whenever we have a sequence of asynchronous tasks that needs to be performed one after another, we can using promise chaining.
 
 ## Exercise 1
 Please define 3 promises with names `promise_1`, `promise_2`, `promise_3`
