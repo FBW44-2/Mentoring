@@ -36,8 +36,8 @@ This part of exercise focus on consuming promises with `.then` and `.catch` meth
 
 ## Exercise 1
 Try to log the return value of a promise into console without using then/catch or async/await. 
-    1. what is the return value?
-    2. why this value is returned?
+1. what is the return value?
+2. why this value is returned?
 
 ## Exercise 2
 
