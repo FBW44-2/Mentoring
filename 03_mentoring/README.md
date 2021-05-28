@@ -35,7 +35,7 @@ Use the [Promise constructor](https://developer.mozilla.org/en-US/docs/Web/JavaS
 This part of exercise focus on consuming promises with `.then` and `.catch` methods and `async`/`await`. These methods are very important, not only in consuming but for transforming and combining promises.
 
 ### Exercise 1
-Try to log the return value of a promise into console without using then/catch or async/await. 
+Try to log the return value of a promise into console ***without*** using then/catch or async/await. 
 1. what is the return value?
 2. why this value is returned?
 
@@ -55,4 +55,4 @@ Please define 3 promises with names `promise_1`, `promise_2`, `promise_3`
 
 
 
-#
+# 
