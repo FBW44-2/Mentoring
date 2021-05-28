@@ -2,7 +2,7 @@
 
 ## Part A: Fetch and GET method
 
-- Please impliment a small application that can show a list of random users based on some filters such as `Gender, Nationality and Number of results`.
+- Please implement a small application that can show a list of random users based on some filters such as `Gender, Nationality and Number of results`.
 
 - Filters can be created as form. Whenever the form submitted, the fetch request should be sent.
 
