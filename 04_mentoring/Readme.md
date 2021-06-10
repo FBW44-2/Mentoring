@@ -1,11 +1,11 @@
 # React Introduction
----
+
 - React is JS library for building fast and interactive user interfaces for the web as well as mobile apps.  
   
 - To make the boiler plate of a react application, needs to install `create-react-app` package first. Then, you would have your boiler plate by using this package name together with a projectName `> create-react-app project1`
 
 
-### Exercise React Application:
+## Exercise React Application:
 1. Please create the interface of an online calculator with React.
    
    - Don't forget that you can re-use the components.
