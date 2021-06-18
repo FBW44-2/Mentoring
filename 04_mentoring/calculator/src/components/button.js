@@ -11,6 +11,7 @@ export default function Button(prop) {
           onClick={(e) => {
               let btnValue = e.target.value;
               let exceptions = ['C', '<=', '='];
+              let ops = ['C', '<=', '=', '===', '!==', '+', '-', '/', '*', '.']
               let dispContent = prop.display + btnValue;
               let display = prop.display;
 
@@ -34,12 +35,16 @@ export default function Button(prop) {
 
               //display result
               if (btnValue === '=') {
-                  let result = "= " + eval(prop.display);
+                  //let result = "= " + eval(prop.display);
                   prop.setDisplay(result)
               }
 
-              if (display.startsWith('=')) {
+              if (display.startsWith('=') && !ops.includes(btnValue)) {
                   prop.setDisplay(btnValue);
+              }
+
+              if (display === "" && btnValue === '=') {
+                  prop.setDisplay("");
               }
 
           }}
