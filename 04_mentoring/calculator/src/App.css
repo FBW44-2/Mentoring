@@ -1,0 +1,81 @@
+
+.App {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: rgb(115, 130, 183);
+}
+
+.logo{
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: xx-large;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.display{
+  width: 80%;
+  font-size: xx-large;
+  color: rgb(152, 150, 150);
+  margin-top: 20px;
+  border:none;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.btn-container{
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(5, 1fr);
+  grid-template-areas: 
+    "op cp cls bsp plus"
+    "one two three tzero minus"
+    "four five six dzero div"
+    "seven eight nine zero mult"
+    "tequal notequal gt lt dot"
+    "eq eq eq eq eq"; 
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.equal-btn{
+  width: 85%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
