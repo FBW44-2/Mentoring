@@ -8,10 +8,15 @@ export function reducer(state = initialState, action) {
         case 'DECREMENT':
             return { count: state.count-1}
     
-        /* case 'ADDTOCART':
-            return {...state, cart: [...state.cart, action.payload]} */
+        case 'ADDTOCART':
+            return {
+                ...state,
+                cart: [...state.cart, action.payload]
+            }
         
         default:
             return state
     }
 }
+
+

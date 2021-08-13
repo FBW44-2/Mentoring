@@ -8,22 +8,23 @@ export default function App() {
 
 
     return (
-        <div className="d-flex flex-direction-row w-25" style={{margin: '50px auto'}}>
-            <input type="button" value="-" className="btn btn-primary fw-bold m-1" onClick={() => {
+        <div className="d-flex w-25 flex-row" style={{margin: '50px auto'}}>
+            <input type="button" value="-" className="btn btn-primary fw-bold m-1 col-3" onClick={() => {
                 dispatch({type: 'DECREMENT'})
             }} />
-            <input type="text" name="count" id="" className="form-control text-center" onChange={() => { return null }} value={ state.count}/>
-            <input type="button" value="+" className="btn btn-primary fw-bold m-1" onClick={ () => {
+            <input type="text" name="count" id="" className="form-control text-center col-6" onChange={() => { return null }} value={ state.count}/>
+            <input type="button" value="+" className="btn btn-primary fw-bold m-1 col-3" onClick={ () => {
                 dispatch(incAction())
             }} />
             
             
-            {/* <input type="button" value="AddToCart" className="btn btn-primary fw-bold m-1" onClick={() => {
+            
+            <input type="button" value="AddToCart" className="btn btn-primary fw-bold m-1 row" onClick={() => {
                 dispatch({
                   type: "ADDTOCART",
                   payload: { name: "MacbookPro", price: 2000 },
                 });
-            }} /> */}
+            }} />
             
         </div>
     )
