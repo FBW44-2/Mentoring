@@ -35,7 +35,7 @@ export default function Button(prop) {
 
               //display result
               if (btnValue === '=') {
-                  //let result = "= " + eval(prop.display);
+                  let result = "= " + eval(prop.display);
                   prop.setDisplay(result)
               }
 
