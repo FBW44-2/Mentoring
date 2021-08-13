@@ -36,3 +36,9 @@ function App() {
 }
 
 export default App;
+
+
+/* 
+urls to get the list of repos: 
+for users: https://api.github.com/users/USERNAME/repos
+for organisations:  https://api.github.com/orgs/ORGNAME/repos */
